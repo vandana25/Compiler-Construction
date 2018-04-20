@@ -1,0 +1,6 @@
+E = T Q
+Q = plus T Q | minus T Q | eps
+T = F R
+R = aster F R | slash F R | eps
+F = int | float | angle1 E angle2
+
